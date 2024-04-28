@@ -1,0 +1,255 @@
+{
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "OBJECTID" : "ObjectID",
+    "Join_Count" : "Join_Count",
+    "TARGET_FID" : "TARGET_FID",
+    "StAddr" : "StAddr",
+    "City" : "City",
+    "Subregion" : "Subregion",
+    "Region" : "Region",
+    "RegionAbbr" : "RegionAbbr",
+    "Postal" : "Postal",
+    "PostalExt" : "PostalExt",
+    "Country" : "Country",
+    "CntryName" : "CountryName",
+    "X" : "X",
+    "Y" : "Y",
+    "IN_Address" : "Address or Place",
+    "IN_City" : "City",
+    "IN_Subregion" : "County",
+    "IN_Region" : "State",
+    "IN_Postal" : "ZIP",
+    "USER_Joint" : "Joint",
+    "USER_Region" : "Region",
+    "USER_Whole_Address" : "Whole Address",
+    "USER_Address" : "Address",
+    "USER_City" : "City",
+    "USER_State" : "State",
+    "USER_Zipcode" : "Zipcode",
+    "Rank" : "Rank",
+    "NAME" : "Name",
+    "STATE_NAME" : "State Name",
+    "STATE_FIPS" : "State FIPS",
+    "FIPS" : "FIPS",
+    "SQMI" : "Area in square miles",
+    "POPULATION" : "2020 Total Population",
+    "POP_SQMI" : "People per square mile",
+    "STATE_ABBR" : "State Abbreviation",
+    "COUNTY_FIPS" : "County FIPS"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 4326,
+    "latestWkid" : 4326
+  },
+  "fields" : [
+    {
+      "name" : "OBJECTID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "ObjectID"
+    },
+    {
+      "name" : "Join_Count",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "Join_Count"
+    },
+    {
+      "name" : "TARGET_FID",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "TARGET_FID"
+    },
+    {
+      "name" : "StAddr",
+      "type" : "esriFieldTypeString",
+      "alias" : "StAddr",
+      "length" : 300
+    },
+    {
+      "name" : "City",
+      "type" : "esriFieldTypeString",
+      "alias" : "City",
+      "length" : 120
+    },
+    {
+      "name" : "Subregion",
+      "type" : "esriFieldTypeString",
+      "alias" : "Subregion",
+      "length" : 120
+    },
+    {
+      "name" : "Region",
+      "type" : "esriFieldTypeString",
+      "alias" : "Region",
+      "length" : 120
+    },
+    {
+      "name" : "RegionAbbr",
+      "type" : "esriFieldTypeString",
+      "alias" : "RegionAbbr",
+      "length" : 50
+    },
+    {
+      "name" : "Postal",
+      "type" : "esriFieldTypeString",
+      "alias" : "Postal",
+      "length" : 20
+    },
+    {
+      "name" : "PostalExt",
+      "type" : "esriFieldTypeString",
+      "alias" : "PostalExt",
+      "length" : 10
+    },
+    {
+      "name" : "Country",
+      "type" : "esriFieldTypeString",
+      "alias" : "Country",
+      "length" : 30
+    },
+    {
+      "name" : "CntryName",
+      "type" : "esriFieldTypeString",
+      "alias" : "CountryName",
+      "length" : 100
+    },
+    {
+      "name" : "X",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "X"
+    },
+    {
+      "name" : "Y",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Y"
+    },
+    {
+      "name" : "IN_Address",
+      "type" : "esriFieldTypeString",
+      "alias" : "Address or Place",
+      "length" : 100
+    },
+    {
+      "name" : "IN_City",
+      "type" : "esriFieldTypeString",
+      "alias" : "City",
+      "length" : 50
+    },
+    {
+      "name" : "IN_Subregion",
+      "type" : "esriFieldTypeString",
+      "alias" : "County",
+      "length" : 50
+    },
+    {
+      "name" : "IN_Region",
+      "type" : "esriFieldTypeString",
+      "alias" : "State",
+      "length" : 50
+    },
+    {
+      "name" : "IN_Postal",
+      "type" : "esriFieldTypeString",
+      "alias" : "ZIP",
+      "length" : 20
+    },
+    {
+      "name" : "USER_Joint",
+      "type" : "esriFieldTypeString",
+      "alias" : "Joint",
+      "length" : 8000
+    },
+    {
+      "name" : "USER_Region",
+      "type" : "esriFieldTypeString",
+      "alias" : "Region",
+      "length" : 8000
+    },
+    {
+      "name" : "USER_Whole_Address",
+      "type" : "esriFieldTypeString",
+      "alias" : "Whole Address",
+      "length" : 8000
+    },
+    {
+      "name" : "USER_Address",
+      "type" : "esriFieldTypeString",
+      "alias" : "Address",
+      "length" : 8000
+    },
+    {
+      "name" : "USER_City",
+      "type" : "esriFieldTypeString",
+      "alias" : "City",
+      "length" : 8000
+    },
+    {
+      "name" : "USER_State",
+      "type" : "esriFieldTypeString",
+      "alias" : "State",
+      "length" : 8000
+    },
+    {
+      "name" : "USER_Zipcode",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "Zipcode"
+    },
+    {
+      "name" : "Rank",
+      "type" : "esriFieldTypeSmallInteger",
+      "alias" : "Rank"
+    },
+    {
+      "name" : "NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "Name",
+      "length" : 50
+    },
+    {
+      "name" : "STATE_NAME",
+      "type" : "esriFieldTypeString",
+      "alias" : "State Name",
+      "length" : 20
+    },
+    {
+      "name" : "STATE_FIPS",
+      "type" : "esriFieldTypeString",
+      "alias" : "State FIPS",
+      "length" : 2
+    },
+    {
+      "name" : "FIPS",
+      "type" : "esriFieldTypeString",
+      "alias" : "FIPS",
+      "length" : 5
+    },
+    {
+      "name" : "SQMI",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "Area in square miles"
+    },
+    {
+      "name" : "POPULATION",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "2020 Total Population"
+    },
+    {
+      "name" : "POP_SQMI",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "People per square mile"
+    },
+    {
+      "name" : "STATE_ABBR",
+      "type" : "esriFieldTypeString",
+      "alias" : "State Abbreviation",
+      "length" : 2
+    },
+    {
+      "name" : "COUNTY_FIPS",
+      "type" : "esriFieldTypeString",
+      "alias" : "County FIPS",
+      "length" : 3
+    }
+  ],
+  "features" : [{"attributes":{"OBJECTID":1,"Join_Count":1,"TARGET_FID":1,"StAddr":"110 Heights Blvd","City":"Houston","Subregion":"Harris County","Region":"Texas","RegionAbbr":"TX","Postal":"77007","PostalExt":"3729","Country":"USA","CntryName":"United States","X":-95.397320983650999,"Y":29.769523967881,"IN_Address":"110 S Heights Blvd","IN_City":"Houston","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"77007","USER_Joint":"3. Truth Barbeque","USER_Region":"Houston","USER_Whole_Address":"110 S Heights Blvd, Houston, TX 77007","USER_Address":"110 S Heights Blvd","USER_City":"Houston","USER_State":"TX","USER_Zipcode":77007,"Rank":3,"NAME":"Harris County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48201","SQMI":1748.72,"POPULATION":4731145,"POP_SQMI":2705.5,"STATE_ABBR":"TX","COUNTY_FIPS":"201"},"geometry":{"x":-95.397661036999978,"y":29.768953998000029}},{"attributes":{"OBJECTID":2,"Join_Count":1,"TARGET_FID":2,"StAddr":"12233 Ranch Road 620 N","City":"Austin","Subregion":"Williamson County","Region":"Texas","RegionAbbr":"TX","Postal":"78750","PostalExt":"1072","Country":"USA","CntryName":"United States","X":-97.815526685128006,"Y":30.462260051329999,"IN_Address":"12233 Ranch Rd 620 N #105","IN_City":"Austin","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"78750","USER_Joint":"2. Interstellar BBQ","USER_Region":"Austin","USER_Whole_Address":"12233 Ranch Rd 620 N #105, Austin, TX 78750","USER_Address":"12233 Ranch Rd 620 N #105","USER_City":"Austin","USER_State":"TX","USER_Zipcode":78750,"Rank":2,"NAME":"Williamson County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48491","SQMI":1131.8800000000001,"POPULATION":609017,"POP_SQMI":538.10000000000002,"STATE_ABBR":"TX","COUNTY_FIPS":"491"},"geometry":{"x":-97.815526684999952,"y":30.462260051000044}},{"attributes":{"OBJECTID":3,"Join_Count":1,"TARGET_FID":3,"StAddr":"121 Pickle Rd","City":"Austin","Subregion":"Travis County","Region":"Texas","RegionAbbr":"TX","Postal":"78704","PostalExt":"7176","Country":"USA","CntryName":"United States","X":-97.762867648975003,"Y":30.227727829585,"IN_Address":"121 Pickle Rd","IN_City":"Austin","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"78704","USER_Joint":"5. LeRoy & Lewis Barbecue","USER_Region":"Austin","USER_Whole_Address":"121 Pickle Rd, Austin, TX 78704","USER_Address":"121 Pickle Rd","USER_City":"Austin","USER_State":"TX","USER_Zipcode":78704,"Rank":5,"NAME":"Travis County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48453","SQMI":1025.03,"POPULATION":1290188,"POP_SQMI":1258.7,"STATE_ABBR":"TX","COUNTY_FIPS":"453"},"geometry":{"x":-97.76307602299994,"y":30.227281996000045}},{"attributes":{"OBJECTID":4,"Join_Count":1,"TARGET_FID":4,"StAddr":"4645 Dick Price Rd","City":"Fort Worth","Subregion":"Tarrant County","Region":"Texas","RegionAbbr":"TX","Postal":"76140","PostalExt":"7713","Country":"USA","CntryName":"United States","X":-97.234244568847998,"Y":32.621407011812998,"IN_Address":"4645 Dick Price Rd","IN_City":"Fort Worth","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"76140","USER_Joint":"1. Goldee's Barbecue","USER_Region":"DFW","USER_Whole_Address":"4645 Dick Price Rd, Fort Worth, TX 76140","USER_Address":"4645 Dick Price Rd","USER_City":"Fort Worth","USER_State":"TX","USER_Zipcode":76140,"Rank":1,"NAME":"Tarrant County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48439","SQMI":903.80999999999995,"POPULATION":2110640,"POP_SQMI":2335.3000000000002,"STATE_ABBR":"TX","COUNTY_FIPS":"439"},"geometry":{"x":-97.233974000999979,"y":32.621407012000077}},{"attributes":{"OBJECTID":5,"Join_Count":1,"TARGET_FID":5,"StAddr":"13628 Gamma Rd","City":"Dallas","Subregion":"Dallas County","Region":"Texas","RegionAbbr":"TX","Postal":"75244","PostalExt":"4406","Country":"USA","CntryName":"United States","X":-96.836696768568999,"Y":32.934545317168997,"IN_Address":"13628 Gamma Rd","IN_City":"Dallas","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"75244","USER_Joint":"6. Cattleack Barbeque","USER_Region":"DFW","USER_Whole_Address":"13628 Gamma Rd, Dallas, TX 75244","USER_Address":"13628 Gamma Rd","USER_City":"Dallas","USER_State":"TX","USER_Zipcode":75244,"Rank":6,"NAME":"Dallas County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48113","SQMI":908.53999999999996,"POPULATION":2613539,"POP_SQMI":2876.5999999999999,"STATE_ABBR":"TX","COUNTY_FIPS":"113"},"geometry":{"x":-96.836260992999939,"y":32.934550011000056}},{"attributes":{"OBJECTID":6,"Join_Count":1,"TARGET_FID":6,"StAddr":"108 S Austin St","City":"Seguin","Subregion":"Guadalupe County","Region":"Texas","RegionAbbr":"TX","Postal":"78155","PostalExt":"5702","Country":"USA","CntryName":"United States","X":-97.964652244917005,"Y":29.568467046864999,"IN_Address":"108 S Austin St","IN_City":"Seguin","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"78155","USER_Joint":"4. Burnt Bean Co.","USER_Region":"Outside of San Antonio","USER_Whole_Address":"108 S Austin St, Seguin, TX 78155","USER_Address":"108 S Austin St","USER_City":"Seguin","USER_State":"TX","USER_Zipcode":78155,"Rank":4,"NAME":"Guadalupe County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48187","SQMI":714.78999999999996,"POPULATION":172706,"POP_SQMI":241.59999999999999,"STATE_ABBR":"TX","COUNTY_FIPS":"187"},"geometry":{"x":-97.964915017999942,"y":29.568457994000028}},{"attributes":{"OBJECTID":7,"Join_Count":1,"TARGET_FID":7,"StAddr":"516 S Main St","City":"Lexington","Subregion":"Lee County","Region":"Texas","RegionAbbr":"TX","Postal":"78947","PostalExt":"0107","Country":"USA","CntryName":"United States","X":-97.009833863474995,"Y":30.413256352960001,"IN_Address":"516 Main St","IN_City":"Lexington","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"78947","USER_Joint":"9. Snow’s BBQ","USER_Region":"Central","USER_Whole_Address":"516 Main St, Lexington, TX 78947","USER_Address":"516 Main St","USER_City":"Lexington","USER_State":"TX","USER_Zipcode":78947,"Rank":9,"NAME":"Lee County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48287","SQMI":634.11000000000001,"POPULATION":17478,"POP_SQMI":27.600000000000001,"STATE_ABBR":"TX","COUNTY_FIPS":"287"},"geometry":{"x":-97.009610988999952,"y":30.413351990000024}},{"attributes":{"OBJECTID":8,"Join_Count":1,"TARGET_FID":8,"StAddr":"900 E 11th St","City":"Austin","Subregion":"Travis County","Region":"Texas","RegionAbbr":"TX","Postal":"78702","PostalExt":"1905","Country":"USA","CntryName":"United States","X":-97.731327720793004,"Y":30.269994833632001,"IN_Address":"900 E 11th St","IN_City":"Austin","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"78702","USER_Joint":"7. Franklin Barbecue","USER_Region":"Austin","USER_Whole_Address":"900 E 11th St, Austin, TX 78702","USER_Address":"900 E 11th St","USER_City":"Austin","USER_State":"TX","USER_Zipcode":78702,"Rank":7,"NAME":"Travis County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48453","SQMI":1025.03,"POPULATION":1290188,"POP_SQMI":1258.7,"STATE_ABBR":"TX","COUNTY_FIPS":"453"},"geometry":{"x":-97.731284972999958,"y":30.270125005000068}},{"attributes":{"OBJECTID":9,"Join_Count":1,"TARGET_FID":9,"StAddr":"Highway 62","City":"Wolfforth","Subregion":"Lubbock County","Region":"Texas","RegionAbbr":"TX","Postal":"79382","PostalExt":"","Country":"USA","CntryName":"United States","X":-102.033376658644,"Y":33.496026521200001,"IN_Address":"217 US-62","IN_City":"Wolfforth","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"79382","USER_Joint":"8. Evie Mae’s Pit Barbecue","USER_Region":"West/Panhandle","USER_Whole_Address":"217 US-62, Wolfforth, TX 79382","USER_Address":"217 US-62","USER_City":"Wolfforth","USER_State":"TX","USER_Zipcode":79382,"Rank":8,"NAME":"Lubbock County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48303","SQMI":900.70000000000005,"POPULATION":310639,"POP_SQMI":344.89999999999998,"STATE_ABBR":"TX","COUNTY_FIPS":"303"},"geometry":{"x":-102.03337665899994,"y":33.496026521000033}},{"attributes":{"OBJECTID":10,"Join_Count":1,"TARGET_FID":10,"StAddr":"1701 Calder St","City":"Beaumont","Subregion":"Jefferson County","Region":"Texas","RegionAbbr":"TX","Postal":"77701","PostalExt":"1617","Country":"USA","CntryName":"United States","X":-94.112692398071999,"Y":30.085913320111999,"IN_Address":"1701 Calder Ave","IN_City":"Beaumont","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"77701","USER_Joint":"1701 Barbecue","USER_Region":"Beaumont","USER_Whole_Address":"1701 Calder Ave, Beaumont, TX 77701","USER_Address":"1701 Calder Ave","USER_City":"Beaumont","USER_State":"TX","USER_Zipcode":77701,"Rank":11,"NAME":"Jefferson County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48245","SQMI":953.11000000000001,"POPULATION":256526,"POP_SQMI":269.10000000000002,"STATE_ABBR":"TX","COUNTY_FIPS":"245"},"geometry":{"x":-94.112688960999947,"y":30.08567301100004}},{"attributes":{"OBJECTID":11,"Join_Count":1,"TARGET_FID":11,"StAddr":"201 E Hattie St","City":"Fort Worth","Subregion":"Tarrant County","Region":"Texas","RegionAbbr":"TX","Postal":"76104","PostalExt":"2465","Country":"USA","CntryName":"United States","X":-97.324786389862993,"Y":32.737965464003999,"IN_Address":"201 E Hattie St","IN_City":"Fort Worth","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"76104","USER_Joint":"Panther City BBQ","USER_Region":"DFW","USER_Whole_Address":"201 E Hattie St, Fort Worth, TX 76104","USER_Address":"201 E Hattie St","USER_City":"Fort Worth","USER_State":"TX","USER_Zipcode":76104,"Rank":10,"NAME":"Tarrant County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48439","SQMI":903.80999999999995,"POPULATION":2110640,"POP_SQMI":2335.3000000000002,"STATE_ABBR":"TX","COUNTY_FIPS":"439"},"geometry":{"x":-97.324792005999939,"y":32.738184986000078}},{"attributes":{"OBJECTID":12,"Join_Count":1,"TARGET_FID":12,"StAddr":"5425 Bellaire Blvd","City":"Bellaire","Subregion":"Harris County","Region":"Texas","RegionAbbr":"TX","Postal":"77401","PostalExt":"3905","Country":"USA","CntryName":"United States","X":-95.475263043994005,"Y":29.705522311713999,"IN_Address":"5425 Bellaire Blvd","IN_City":"Bellaire","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"77401","USER_Joint":"Blood Bros. BBQ","USER_Region":"Houston","USER_Whole_Address":"5425 Bellaire Blvd, Bellaire, TX 77401","USER_Address":"5425 Bellaire Blvd","USER_City":"Bellaire","USER_State":"TX","USER_Zipcode":77401,"Rank":null,"NAME":"Harris County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48201","SQMI":1748.72,"POPULATION":4731145,"POP_SQMI":2705.5,"STATE_ABBR":"TX","COUNTY_FIPS":"201"},"geometry":{"x":-95.475258014999952,"y":29.704851005000023}},{"attributes":{"OBJECTID":13,"Join_Count":1,"TARGET_FID":13,"StAddr":"449 W Cameron Ave","City":"Rockdale","Subregion":"Milam County","Region":"Texas","RegionAbbr":"TX","Postal":"76567","PostalExt":"2814","Country":"USA","CntryName":"United States","X":-97.005297577476995,"Y":30.653797653807999,"IN_Address":"449 W Cameron Ave","IN_City":"Rockdale","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"76567","USER_Joint":"Brett's Backyard Bar-B-Que","USER_Region":"Central","USER_Whole_Address":"449 W Cameron Ave, Rockdale, TX 76567","USER_Address":"449 W Cameron Ave","USER_City":"Rockdale","USER_State":"TX","USER_Zipcode":76567,"Rank":null,"NAME":"Milam County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48331","SQMI":1020.92,"POPULATION":24754,"POP_SQMI":24.199999999999999,"STATE_ABBR":"TX","COUNTY_FIPS":"331"},"geometry":{"x":-97.005222978999939,"y":30.653630016000079}},{"attributes":{"OBJECTID":14,"Join_Count":1,"TARGET_FID":14,"StAddr":"1404 N Sarah Dewitt Dr","City":"Gonzales","Subregion":"Gonzales County","Region":"Texas","RegionAbbr":"TX","Postal":"78629","PostalExt":"2702","Country":"USA","CntryName":"United States","X":-97.433216784817006,"Y":29.519603149742,"IN_Address":"1404 Sarah DeWitt Dr","IN_City":"Gonzales","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"78629","USER_Joint":"Baker Boys BBQ","USER_Region":"Central","USER_Whole_Address":"1404 Sarah DeWitt Dr, Gonzales, TX 78629","USER_Address":"1404 Sarah DeWitt Dr","USER_City":"Gonzales","USER_State":"TX","USER_Zipcode":78629,"Rank":null,"NAME":"Gonzales County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48177","SQMI":1069.8499999999999,"POPULATION":19653,"POP_SQMI":18.399999999999999,"STATE_ABBR":"TX","COUNTY_FIPS":"177"},"geometry":{"x":-97.433029029999943,"y":29.519875981000041}},{"attributes":{"OBJECTID":15,"Join_Count":1,"TARGET_FID":15,"StAddr":"2731 S Ww White Rd","City":"San Antonio","Subregion":"Bexar County","Region":"Texas","RegionAbbr":"TX","Postal":"78222","PostalExt":"2807","Country":"USA","CntryName":"United States","X":-98.404581797497997,"Y":29.382493905436,"IN_Address":"2731 S WW White Rd","IN_City":"San Antonio","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"78222","USER_Joint":"2M Smokehouse","USER_Region":"San Antonio","USER_Whole_Address":"2731 S WW White Rd, San Antonio, TX 78222","USER_Address":"2731 S WW White Rd","USER_City":"San Antonio","USER_State":"TX","USER_Zipcode":78222,"Rank":null,"NAME":"Bexar County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48029","SQMI":1256.0699999999999,"POPULATION":2009324,"POP_SQMI":1599.7,"STATE_ABBR":"TX","COUNTY_FIPS":"029"},"geometry":{"x":-98.40492302499996,"y":29.38249700700004}},{"attributes":{"OBJECTID":16,"Join_Count":1,"TARGET_FID":16,"StAddr":"104 S State Highway 359","City":"Mathis","Subregion":"San Patricio County","Region":"Texas","RegionAbbr":"TX","Postal":"78368","PostalExt":"2702","Country":"USA","CntryName":"United States","X":-97.821763594551996,"Y":28.088964493054998,"IN_Address":"104 TX-359","IN_City":"Mathis","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"78368","USER_Joint":"Butter's BBQ","USER_Region":"South","USER_Whole_Address":"104 TX-359, Mathis, TX 78368","USER_Address":"104 TX-359","USER_City":"Mathis","USER_State":"TX","USER_Zipcode":78368,"Rank":null,"NAME":"San Patricio County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48409","SQMI":704.75,"POPULATION":68755,"POP_SQMI":97.599999999999994,"STATE_ABBR":"TX","COUNTY_FIPS":"409"},"geometry":{"x":-97.822062995999943,"y":28.089111009000078}},{"attributes":{"OBJECTID":17,"Join_Count":1,"TARGET_FID":17,"StAddr":"606 S Mason Rd","City":"Katy","Subregion":"Harris County","Region":"Texas","RegionAbbr":"TX","Postal":"77450","PostalExt":"3420","Country":"USA","CntryName":"United States","X":-95.751858221251993,"Y":29.774312088161,"IN_Address":"606 Mason Rd","IN_City":"Katy","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"77450","USER_Joint":"Brett's BBQ Shop","USER_Region":"Houston","USER_Whole_Address":"606 Mason Rd, Katy, TX 77450","USER_Address":"606 Mason Rd","USER_City":"Katy","USER_State":"TX","USER_Zipcode":77450,"Rank":null,"NAME":"Harris County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48201","SQMI":1748.72,"POPULATION":4731145,"POP_SQMI":2705.5,"STATE_ABBR":"TX","COUNTY_FIPS":"201"},"geometry":{"x":-95.75228100399994,"y":29.774307981000049}},{"attributes":{"OBJECTID":18,"Join_Count":1,"TARGET_FID":18,"StAddr":"15608 Spring Hill Ln","City":"Pflugerville","Subregion":"Travis County","Region":"Texas","RegionAbbr":"TX","Postal":"78660","PostalExt":"3319","Country":"USA","CntryName":"United States","X":-97.651207455272001,"Y":30.445433641059999,"IN_Address":"15608 Spring Hill Ln #105","IN_City":"Pflugerville","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"78660","USER_Joint":"Brotherton's Black Iron Barbecue","USER_Region":"Austin","USER_Whole_Address":"15608 Spring Hill Ln #105, Pflugerville, TX 78660","USER_Address":"15608 Spring Hill Ln #105","USER_City":"Pflugerville","USER_State":"TX","USER_Zipcode":78660,"Rank":null,"NAME":"Travis County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48453","SQMI":1025.03,"POPULATION":1290188,"POP_SQMI":1258.7,"STATE_ABBR":"TX","COUNTY_FIPS":"453"},"geometry":{"x":-97.651641972999982,"y":30.445707981000055}},{"attributes":{"OBJECTID":19,"Join_Count":1,"TARGET_FID":19,"StAddr":"26608 Keith St","City":"Spring","Subregion":"Harris County","Region":"Texas","RegionAbbr":"TX","Postal":"77373","PostalExt":"8327","Country":"USA","CntryName":"United States","X":-95.420161166889997,"Y":30.080622076093999,"IN_Address":"26608 Keith St","IN_City":"Spring","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"77373","USER_Joint":"Corkscrew BBQ","USER_Region":"Houston","USER_Whole_Address":"26608 Keith St, Spring, TX 77373","USER_Address":"26608 Keith St","USER_City":"Spring","USER_State":"TX","USER_Zipcode":77373,"Rank":null,"NAME":"Harris County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48201","SQMI":1748.72,"POPULATION":4731145,"POP_SQMI":2705.5,"STATE_ABBR":"TX","COUNTY_FIPS":"201"},"geometry":{"x":-95.41992798199999,"y":30.080678989000035}},{"attributes":{"OBJECTID":20,"Join_Count":1,"TARGET_FID":20,"StAddr":"1411 W San Antonio St","City":"Marfa","Subregion":"Presidio County","Region":"Texas","RegionAbbr":"TX","Postal":"79843","PostalExt":"","Country":"USA","CntryName":"United States","X":-104.03642545642199,"Y":30.305803623193,"IN_Address":"1411 W San Antonio St","IN_City":"Marfa","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"79843","USER_Joint":"Convenience West","USER_Region":"West","USER_Whole_Address":"1411 W San Antonio St, Marfa, TX 79843","USER_Address":"1411 W San Antonio St","USER_City":"Marfa","USER_State":"TX","USER_Zipcode":79843,"Rank":null,"NAME":"Presidio County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48377","SQMI":3855.9499999999998,"POPULATION":6131,"POP_SQMI":1.6000000000000001,"STATE_ABBR":"TX","COUNTY_FIPS":"377"},"geometry":{"x":-104.03638497199995,"y":30.305554010000037}},{"attributes":{"OBJECTID":21,"Join_Count":1,"TARGET_FID":21,"StAddr":"1320 N Zaragoza Rd","City":"El Paso","Subregion":"El Paso County","Region":"Texas","RegionAbbr":"TX","Postal":"79936","PostalExt":"7930","Country":"USA","CntryName":"United States","X":-106.300018423376,"Y":31.726873289665999,"IN_Address":"1320 N Zaragoza Rd #105","IN_City":"El Paso","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"79936","USER_Joint":"Desert Oak Barbecue","USER_Region":"West","USER_Whole_Address":"1320 N Zaragoza Rd #105, El Paso, TX 79936","USER_Address":"1320 N Zaragoza Rd #105","USER_City":"El Paso","USER_State":"TX","USER_Zipcode":79936,"Rank":null,"NAME":"El Paso County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48141","SQMI":1015.29,"POPULATION":865657,"POP_SQMI":852.60000000000002,"STATE_ABBR":"TX","COUNTY_FIPS":"141"},"geometry":{"x":-106.29928299499994,"y":31.726331986000048}},{"attributes":{"OBJECTID":22,"Join_Count":1,"TARGET_FID":22,"StAddr":"3901 Promontory Point Dr","City":"Austin","Subregion":"Travis County","Region":"Texas","RegionAbbr":"TX","Postal":"78744","PostalExt":"1115","Country":"USA","CntryName":"United States","X":-97.730282847468004,"Y":30.209158297498998,"IN_Address":"3901 Promontory Point Dr","IN_City":"Austin","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"78744","USER_Joint":"Distant Relatives","USER_Region":"Austin","USER_Whole_Address":"3901 Promontory Point Dr, Austin, TX 78744","USER_Address":"3901 Promontory Point Dr","USER_City":"Austin","USER_State":"TX","USER_Zipcode":78744,"Rank":null,"NAME":"Travis County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48453","SQMI":1025.03,"POPULATION":1290188,"POP_SQMI":1258.7,"STATE_ABBR":"TX","COUNTY_FIPS":"453"},"geometry":{"x":-97.730282846999955,"y":30.209158297000045}},{"attributes":{"OBJECTID":23,"Join_Count":1,"TARGET_FID":23,"StAddr":"2735 W 5th St","City":"Fort Worth","Subregion":"Tarrant County","Region":"Texas","RegionAbbr":"TX","Postal":"76107","PostalExt":"2201","Country":"USA","CntryName":"United States","X":-97.355333502362996,"Y":32.752921860470003,"IN_Address":"2735 W 5th St","IN_City":"Fort Worth","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"76107","USER_Joint":"Dayne's Craft Barbecue","USER_Region":"DFW","USER_Whole_Address":"2735 W 5th St, Fort Worth, TX 76107","USER_Address":"2735 W 5th St","USER_City":"Fort Worth","USER_State":"TX","USER_Zipcode":76107,"Rank":null,"NAME":"Tarrant County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48439","SQMI":903.80999999999995,"POPULATION":2110640,"POP_SQMI":2335.3000000000002,"STATE_ABBR":"TX","COUNTY_FIPS":"439"},"geometry":{"x":-97.355333501999951,"y":32.752921860000072}},{"attributes":{"OBJECTID":24,"Join_Count":1,"TARGET_FID":24,"StAddr":"2803 Franklin Ave","City":"Waco","Subregion":"McLennan County","Region":"Texas","RegionAbbr":"TX","Postal":"76710","PostalExt":"7439","Country":"USA","CntryName":"United States","X":-97.152359912709002,"Y":31.537073138886001,"IN_Address":"2803 Franklin Ave","IN_City":"Waco","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"76710","USER_Joint":"Guess Family Barbecue","USER_Region":"Central","USER_Whole_Address":"2803 Franklin Ave, Waco, TX 76710","USER_Address":"2803 Franklin Ave","USER_City":"Waco","USER_State":"TX","USER_Zipcode":76710,"Rank":null,"NAME":"McLennan County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48309","SQMI":1060.24,"POPULATION":260579,"POP_SQMI":245.80000000000001,"STATE_ABBR":"TX","COUNTY_FIPS":"309"},"geometry":{"x":-97.152540039999963,"y":31.537282016000063}},{"attributes":{"OBJECTID":25,"Join_Count":1,"TARGET_FID":25,"StAddr":"607 W Main St","City":"Fredericksburg","Subregion":"Gillespie County","Region":"Texas","RegionAbbr":"TX","Postal":"78624","PostalExt":"3131","Country":"USA","CntryName":"United States","X":-98.881483254432993,"Y":30.281687295194999,"IN_Address":"607 W Main St","IN_City":"Fredericksburg","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"78624","USER_Joint":"Eaker Barbecue","USER_Region":"Central","USER_Whole_Address":"607 W Main St, Fredericksburg, TX 78624","USER_Address":"607 W Main St","USER_City":"Fredericksburg","USER_State":"TX","USER_Zipcode":78624,"Rank":null,"NAME":"Gillespie County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48171","SQMI":1061.6800000000001,"POPULATION":26725,"POP_SQMI":25.199999999999999,"STATE_ABBR":"TX","COUNTY_FIPS":"171"},"geometry":{"x":-98.881689029999961,"y":30.281402981000042}},{"attributes":{"OBJECTID":26,"Join_Count":1,"TARGET_FID":26,"StAddr":"8217 Long Point Rd","City":"Houston","Subregion":"Harris County","Region":"Texas","RegionAbbr":"TX","Postal":"77055","PostalExt":"2007","Country":"USA","CntryName":"United States","X":-95.492169677974999,"Y":29.802937377151999,"IN_Address":"8217 Long Point Rd","IN_City":"Houston","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"77055","USER_Joint":"Feges BBQ","USER_Region":"Houston","USER_Whole_Address":"8217 Long Point Rd, Houston, TX 77055","USER_Address":"8217 Long Point Rd","USER_City":"Houston","USER_State":"TX","USER_Zipcode":77055,"Rank":null,"NAME":"Harris County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48201","SQMI":1748.72,"POPULATION":4731145,"POP_SQMI":2705.5,"STATE_ABBR":"TX","COUNTY_FIPS":"201"},"geometry":{"x":-95.49219297999997,"y":29.802106982000055}},{"attributes":{"OBJECTID":27,"Join_Count":1,"TARGET_FID":27,"StAddr":"8532 N State Highway 6","City":"Woodway","Subregion":"McLennan County","Region":"Texas","RegionAbbr":"TX","Postal":"76712","PostalExt":"2611","Country":"USA","CntryName":"United States","X":-97.309690079329997,"Y":31.583148963555001,"IN_Address":"8532 Hwy 6","IN_City":"Woodway","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"76712","USER_Joint":"Helberg Barbecue","USER_Region":"Central","USER_Whole_Address":"8532 Hwy 6, Woodway, TX 76712","USER_Address":"8532 Hwy 6","USER_City":"Woodway","USER_State":"TX","USER_Zipcode":76712,"Rank":null,"NAME":"McLennan County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48309","SQMI":1060.24,"POPULATION":260579,"POP_SQMI":245.80000000000001,"STATE_ABBR":"TX","COUNTY_FIPS":"309"},"geometry":{"x":-97.309525961999952,"y":31.583570992000034}},{"attributes":{"OBJECTID":28,"Join_Count":1,"TARGET_FID":28,"StAddr":"1301 N Tennessee St","City":"Mckinney","Subregion":"Collin County","Region":"Texas","RegionAbbr":"TX","Postal":"75069","PostalExt":"2117","Country":"USA","CntryName":"United States","X":-96.614996435406994,"Y":33.211111828317001,"IN_Address":"1301 N Tennessee St","IN_City":"McKinney","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"75069","USER_Joint":"Hutchins BBQ","USER_Region":"DFW","USER_Whole_Address":"1301 N Tennessee St, McKinney, TX 75069","USER_Address":"1301 N Tennessee St","USER_City":"McKinney","USER_State":"TX","USER_Zipcode":75069,"Rank":null,"NAME":"Collin County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48085","SQMI":885.87,"POPULATION":1064465,"POP_SQMI":1201.5999999999999,"STATE_ABBR":"TX","COUNTY_FIPS":"085"},"geometry":{"x":-96.615590963999978,"y":33.211182991000044}},{"attributes":{"OBJECTID":29,"Join_Count":1,"TARGET_FID":29,"StAddr":"205 E Front St","City":"Arlington","Subregion":"Tarrant County","Region":"Texas","RegionAbbr":"TX","Postal":"76011","PostalExt":"7520","Country":"USA","CntryName":"United States","X":-97.105027976029007,"Y":32.737744726583998,"IN_Address":"205 E Front St","IN_City":"Arlington","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"76010","USER_Joint":"Hurtado Barbecue","USER_Region":"DFW","USER_Whole_Address":"205 E Front St, Arlington, TX 76010","USER_Address":"205 E Front St","USER_City":"Arlington","USER_State":"TX","USER_Zipcode":76010,"Rank":null,"NAME":"Tarrant County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48439","SQMI":903.80999999999995,"POPULATION":2110640,"POP_SQMI":2335.3000000000002,"STATE_ABBR":"TX","COUNTY_FIPS":"439"},"geometry":{"x":-97.105022024999982,"y":32.737905994000073}},{"attributes":{"OBJECTID":30,"Join_Count":1,"TARGET_FID":30,"StAddr":"3613 Broadway St","City":"Pearland","Subregion":"Brazoria County","Region":"Texas","RegionAbbr":"TX","Postal":"77581","PostalExt":"4201","Country":"USA","CntryName":"United States","X":-95.282199902125996,"Y":29.563764254359,"IN_Address":"3613 E Broadway St","IN_City":"Pearland","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"77581","USER_Joint":"Killen’s Barbecue","USER_Region":"Houston","USER_Whole_Address":"3613 E Broadway St, Pearland, TX 77581","USER_Address":"3613 E Broadway St","USER_City":"Pearland","USER_State":"TX","USER_Zipcode":77581,"Rank":null,"NAME":"Brazoria County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48039","SQMI":1421.8,"POPULATION":372031,"POP_SQMI":261.69999999999999,"STATE_ABBR":"TX","COUNTY_FIPS":"039"},"geometry":{"x":-95.282182970999941,"y":29.564062985000078}},{"attributes":{"OBJECTID":31,"Join_Count":1,"TARGET_FID":31,"StAddr":"2401 E Cesar Chavez St","City":"Austin","Subregion":"Travis County","Region":"Texas","RegionAbbr":"TX","Postal":"78702","PostalExt":"4605","Country":"USA","CntryName":"United States","X":-97.717582992147001,"Y":30.254632230035,"IN_Address":"2401 E Cesar Chavez St","IN_City":"Austin","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"78702","USER_Joint":"La Barbecue","USER_Region":"Austin","USER_Whole_Address":"2401 E Cesar Chavez St, Austin, TX 78702","USER_Address":"2401 E Cesar Chavez St","USER_City":"Austin","USER_State":"TX","USER_Zipcode":78702,"Rank":null,"NAME":"Travis County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48453","SQMI":1025.03,"POPULATION":1290188,"POP_SQMI":1258.7,"STATE_ABBR":"TX","COUNTY_FIPS":"453"},"geometry":{"x":-97.717628002999959,"y":30.254503987000078}},{"attributes":{"OBJECTID":32,"Join_Count":1,"TARGET_FID":32,"StAddr":"1612 S Interstate 35","City":"San Marcos","Subregion":"Hays County","Region":"Texas","RegionAbbr":"TX","Postal":"78666","PostalExt":"6009","Country":"USA","CntryName":"United States","X":-97.946858386485005,"Y":29.862929969031001,"IN_Address":"1612 S Interstate 35","IN_City":"San Marcos","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"78666","USER_Joint":"Hay’s County Barbeque","USER_Region":"Central","USER_Whole_Address":"1612 S Interstate 35, San Marcos, TX 78666","USER_Address":"1612 S Interstate 35","USER_City":"San Marcos","USER_State":"TX","USER_Zipcode":78666,"Rank":null,"NAME":"Hays County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48209","SQMI":678.79999999999995,"POPULATION":241067,"POP_SQMI":355.10000000000002,"STATE_ABBR":"TX","COUNTY_FIPS":"209"},"geometry":{"x":-97.947672017999992,"y":29.863872011000069}},{"attributes":{"OBJECTID":33,"Join_Count":1,"TARGET_FID":33,"StAddr":"532 N Virginia St","City":"Port Lavaca","Subregion":"Calhoun County","Region":"Texas","RegionAbbr":"TX","Postal":"77979","PostalExt":"3020","Country":"USA","CntryName":"United States","X":-96.629650265272005,"Y":28.618818371844998,"IN_Address":"532 N Virginia St","IN_City":"Port Lavaca","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"77979","USER_Joint":"LaVaca BBQ","USER_Region":"South","USER_Whole_Address":"532 N Virginia St, Port Lavaca, TX 77979","USER_Address":"532 N Virginia St","USER_City":"Port Lavaca","USER_State":"TX","USER_Zipcode":77979,"Rank":null,"NAME":"Calhoun County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48057","SQMI":542.99000000000001,"POPULATION":20106,"POP_SQMI":37,"STATE_ABBR":"TX","COUNTY_FIPS":"057"},"geometry":{"x":-96.62948296199994,"y":28.618967989000055}},{"attributes":{"OBJECTID":34,"Join_Count":1,"TARGET_FID":34,"StAddr":"1309 Rosewood Ave","City":"Austin","Subregion":"Travis County","Region":"Texas","RegionAbbr":"TX","Postal":"78702","PostalExt":"2024","Country":"USA","CntryName":"United States","X":-97.725171799644002,"Y":30.268707624762001,"IN_Address":"1309 Rosewood Ave","IN_City":"Austin","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"78702","USER_Joint":"Micklethwait Craft Meats","USER_Region":"Austin","USER_Whole_Address":"1309 Rosewood Ave, Austin, TX 78702","USER_Address":"1309 Rosewood Ave","USER_City":"Austin","USER_State":"TX","USER_Zipcode":78702,"Rank":null,"NAME":"Travis County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48453","SQMI":1025.03,"POPULATION":1290188,"POP_SQMI":1258.7,"STATE_ABBR":"TX","COUNTY_FIPS":"453"},"geometry":{"x":-97.725153023999951,"y":30.268571000000065}},{"attributes":{"OBJECTID":35,"Join_Count":1,"TARGET_FID":35,"StAddr":"1407 W Main St","City":"Brenham","Subregion":"Washington County","Region":"Texas","RegionAbbr":"TX","Postal":"77833","PostalExt":"3411","Country":"USA","CntryName":"United States","X":-96.416858218803995,"Y":30.165561223480001,"IN_Address":"1407 W Main St","IN_City":"Brenham","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"77833","USER_Joint":"LJ's BBQ","USER_Region":"Central","USER_Whole_Address":"1407 W Main St, Brenham, TX 77833","USER_Address":"1407 W Main St","USER_City":"Brenham","USER_State":"TX","USER_Zipcode":77833,"Rank":null,"NAME":"Washington County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48477","SQMI":621.75,"POPULATION":35805,"POP_SQMI":57.600000000000001,"STATE_ABBR":"TX","COUNTY_FIPS":"477"},"geometry":{"x":-96.416873976999966,"y":30.165352011000039}},{"attributes":{"OBJECTID":36,"Join_Count":1,"TARGET_FID":36,"StAddr":"206 W 2nd St","City":"Taylor","Subregion":"Williamson County","Region":"Texas","RegionAbbr":"TX","Postal":"76574","PostalExt":"3511","Country":"USA","CntryName":"United States","X":-97.411242200719002,"Y":30.568772508096,"IN_Address":"206 W 2nd St","IN_City":"Taylor","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"76574","USER_Joint":"Louie Mueller Barbecue","USER_Region":"Central","USER_Whole_Address":"206 W 2nd St, Taylor, TX 76574","USER_Address":"206 W 2nd St","USER_City":"Taylor","USER_State":"TX","USER_Zipcode":76574,"Rank":null,"NAME":"Williamson County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48491","SQMI":1131.8800000000001,"POPULATION":609017,"POP_SQMI":538.10000000000002,"STATE_ABBR":"TX","COUNTY_FIPS":"491"},"geometry":{"x":-97.411242200999936,"y":30.568772508000052}},{"attributes":{"OBJECTID":37,"Join_Count":1,"TARGET_FID":37,"StAddr":"107 W Houston St","City":"San Antonio","Subregion":"Bexar County","Region":"Texas","RegionAbbr":"TX","Postal":"78205","PostalExt":"2114","Country":"USA","CntryName":"United States","X":-98.494175038530997,"Y":29.426479493001001,"IN_Address":"107 W Houston St","IN_City":"San Antonio","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"78205","USER_Joint":"Pinkerton’s Barbecue","USER_Region":"San Antonio","USER_Whole_Address":"107 W Houston St, San Antonio, TX 78205","USER_Address":"107 W Houston St","USER_City":"San Antonio","USER_State":"TX","USER_Zipcode":78205,"Rank":null,"NAME":"Bexar County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48029","SQMI":1256.0699999999999,"POPULATION":2009324,"POP_SQMI":1599.7,"STATE_ABBR":"TX","COUNTY_FIPS":"029"},"geometry":{"x":-98.494171014999949,"y":29.427181980000057}},{"attributes":{"OBJECTID":38,"Join_Count":1,"TARGET_FID":38,"StAddr":"300 E Central Ave","City":"Belton","Subregion":"Bell County","Region":"Texas","RegionAbbr":"TX","Postal":"76513","PostalExt":"3240","Country":"USA","CntryName":"United States","X":-97.461679464886998,"Y":31.055869209141001,"IN_Address":"300 E Central Ave","IN_City":"Belton","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"76513","USER_Joint":"Miller’s Smokehouse","USER_Region":"Central","USER_Whole_Address":"300 E Central Ave, Belton, TX 76513","USER_Address":"300 E Central Ave","USER_City":"Belton","USER_State":"TX","USER_Zipcode":76513,"Rank":null,"NAME":"Bell County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48027","SQMI":1090.28,"POPULATION":370647,"POP_SQMI":340,"STATE_ABBR":"TX","COUNTY_FIPS":"027"},"geometry":{"x":-97.461605033999945,"y":31.056121002000054}},{"attributes":{"OBJECTID":39,"Join_Count":1,"TARGET_FID":39,"StAddr":"2234 Irving Blvd","City":"Dallas","Subregion":"Dallas County","Region":"Texas","RegionAbbr":"TX","Postal":"75207","PostalExt":"6202","Country":"USA","CntryName":"United States","X":-96.834285043568002,"Y":32.796133986114,"IN_Address":"2234 Irving Blvd","IN_City":"Dallas","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"75207","USER_Joint":"Slow Bone","USER_Region":"DFW","USER_Whole_Address":"2234 Irving Blvd, Dallas, TX 75207","USER_Address":"2234 Irving Blvd","USER_City":"Dallas","USER_State":"TX","USER_Zipcode":75207,"Rank":null,"NAME":"Dallas County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48113","SQMI":908.53999999999996,"POPULATION":2613539,"POP_SQMI":2876.5999999999999,"STATE_ABBR":"TX","COUNTY_FIPS":"113"},"geometry":{"x":-96.834247995999988,"y":32.796340013000076}},{"attributes":{"OBJECTID":40,"Join_Count":1,"TARGET_FID":40,"StAddr":"514 8th St","City":"Olton","Subregion":"Lamb County","Region":"Texas","RegionAbbr":"TX","Postal":"79064","PostalExt":"","Country":"USA","CntryName":"United States","X":-102.13442133839,"Y":34.181138879704001,"IN_Address":"514 8th St","IN_City":"Olton","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"79064","USER_Joint":"Rejino Barbeque","USER_Region":"West/Panhandle","USER_Whole_Address":"514 8th St, Olton, TX 79064","USER_Address":"514 8th St","USER_City":"Olton","USER_State":"TX","USER_Zipcode":79064,"Rank":null,"NAME":"Lamb County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48279","SQMI":1017.72,"POPULATION":13045,"POP_SQMI":12.800000000000001,"STATE_ABBR":"TX","COUNTY_FIPS":"279"},"geometry":{"x":-102.13442603199996,"y":34.181347002000052}},{"attributes":{"OBJECTID":41,"Join_Count":1,"TARGET_FID":41,"StAddr":"1417 Evans Ave","City":"Fort Worth","Subregion":"Tarrant County","Region":"Texas","RegionAbbr":"TX","Postal":"76104","PostalExt":"7502","Country":"USA","CntryName":"United States","X":-97.318317320812,"Y":32.728415752168999,"IN_Address":"1417 Evans Ave","IN_City":"Fort Worth","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"76104","USER_Joint":"Smoke-A-Holics BBQ","USER_Region":"DFW","USER_Whole_Address":"1417 Evans Ave, Fort Worth, TX 76104","USER_Address":"1417 Evans Ave","USER_City":"Fort Worth","USER_State":"TX","USER_Zipcode":76104,"Rank":null,"NAME":"Tarrant County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48439","SQMI":903.80999999999995,"POPULATION":2110640,"POP_SQMI":2335.3000000000002,"STATE_ABBR":"TX","COUNTY_FIPS":"439"},"geometry":{"x":-97.317980032999969,"y":32.728417009000054}},{"attributes":{"OBJECTID":42,"Join_Count":1,"TARGET_FID":42,"StAddr":"1979 S 5th St","City":"Crockett","Subregion":"Houston County","Region":"Texas","RegionAbbr":"TX","Postal":"75835","PostalExt":"2904","Country":"USA","CntryName":"United States","X":-95.450149992779004,"Y":31.298082291785001,"IN_Address":"1979 S 5th St","IN_City":"Crockett","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"75835","USER_Joint":"Mimsy's Craft Barbecue","USER_Region":"East","USER_Whole_Address":"1979 S 5th St, Crockett, TX 75835","USER_Address":"1979 S 5th St","USER_City":"Crockett","USER_State":"TX","USER_Zipcode":75835,"Rank":null,"NAME":"Houston County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48225","SQMI":1236.5699999999999,"POPULATION":22066,"POP_SQMI":17.800000000000001,"STATE_ABBR":"TX","COUNTY_FIPS":"225"},"geometry":{"x":-95.450149992999968,"y":31.298082292000061}},{"attributes":{"OBJECTID":43,"Join_Count":1,"TARGET_FID":43,"StAddr":"2807 N Texas Blvd","City":"Weslaco","Subregion":"Hidalgo County","Region":"Texas","RegionAbbr":"TX","Postal":"78599","PostalExt":"8708","Country":"USA","CntryName":"United States","X":-97.991214412261002,"Y":26.187404448254,"IN_Address":"2807 Texas Blvd N","IN_City":"Weslaco","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"78599","USER_Joint":"Teddy's Barbecue","USER_Region":"South","USER_Whole_Address":"2807 Texas Blvd N, Weslaco, TX 78599","USER_Address":"2807 Texas Blvd N","USER_City":"Weslaco","USER_State":"TX","USER_Zipcode":78599,"Rank":null,"NAME":"Hidalgo County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48215","SQMI":1582.8299999999999,"POPULATION":870781,"POP_SQMI":550.10000000000002,"STATE_ABBR":"TX","COUNTY_FIPS":"215"},"geometry":{"x":-97.991530996999984,"y":26.187400006000075}},{"attributes":{"OBJECTID":44,"Join_Count":1,"TARGET_FID":44,"StAddr":"525 S Beckham Ave","City":"Tyler","Subregion":"Smith County","Region":"Texas","RegionAbbr":"TX","Postal":"75702","PostalExt":"8303","Country":"USA","CntryName":"United States","X":-95.293857704518999,"Y":32.344248947848001,"IN_Address":"525 S Beckham Ave","IN_City":"Tyler","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"75702","USER_Joint":"Stanley’s Famous Pit Barbecue","USER_Region":"East","USER_Whole_Address":"525 S Beckham Ave, Tyler, TX 75702","USER_Address":"525 S Beckham Ave","USER_City":"Tyler","USER_State":"TX","USER_Zipcode":75702,"Rank":null,"NAME":"Smith County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48423","SQMI":949.72000000000003,"POPULATION":233479,"POP_SQMI":245.80000000000001,"STATE_ABBR":"TX","COUNTY_FIPS":"423"},"geometry":{"x":-95.294208989999959,"y":32.34388098200003}},{"attributes":{"OBJECTID":45,"Join_Count":1,"TARGET_FID":45,"StAddr":"200 N Elm St","City":"Tomball","Subregion":"Harris County","Region":"Texas","RegionAbbr":"TX","Postal":"77375","PostalExt":"4753","Country":"USA","CntryName":"United States","X":-95.614572454064003,"Y":30.099114775703999,"IN_Address":"200 N Elm St","IN_City":"Tomball","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"77375","USER_Joint":"Tejas Chocolate Craftory","USER_Region":"Houston","USER_Whole_Address":"200 N Elm St, Tomball, TX 77375","USER_Address":"200 N Elm St","USER_City":"Tomball","USER_State":"TX","USER_Zipcode":77375,"Rank":null,"NAME":"Harris County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48201","SQMI":1748.72,"POPULATION":4731145,"POP_SQMI":2705.5,"STATE_ABBR":"TX","COUNTY_FIPS":"201"},"geometry":{"x":-95.614804967999987,"y":30.098982006000028}},{"attributes":{"OBJECTID":46,"Join_Count":1,"TARGET_FID":46,"StAddr":"3025 Main St","City":"Dallas","Subregion":"Dallas County","Region":"Texas","RegionAbbr":"TX","Postal":"75226","PostalExt":"1506","Country":"USA","CntryName":"United States","X":-96.779843911892002,"Y":32.784649437658999,"IN_Address":"3025 Main St","IN_City":"Dallas","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"75226","USER_Joint":"Terry Black’s Barbecue","USER_Region":"DFW","USER_Whole_Address":"3025 Main St, Dallas, TX 75226","USER_Address":"3025 Main St","USER_City":"Dallas","USER_State":"TX","USER_Zipcode":75226,"Rank":null,"NAME":"Dallas County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48113","SQMI":908.53999999999996,"POPULATION":2613539,"POP_SQMI":2876.5999999999999,"STATE_ABBR":"TX","COUNTY_FIPS":"113"},"geometry":{"x":-96.77988699499997,"y":32.784860997000067}},{"attributes":{"OBJECTID":47,"Join_Count":1,"TARGET_FID":47,"StAddr":"6403 S R L Thornton Fwy","City":"Dallas","Subregion":"Dallas County","Region":"Texas","RegionAbbr":"TX","Postal":"75232","PostalExt":"3245","Country":"USA","CntryName":"United States","X":-96.822970983024007,"Y":32.670078083253998,"IN_Address":"6403 S R L Thornton Fwy","IN_City":"Dallas","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"75232","USER_Joint":"Smokey Joe's BBQ","USER_Region":"DFW","USER_Whole_Address":"6403 S R L Thornton Fwy, Dallas, TX 75232","USER_Address":"6403 S R L Thornton Fwy","USER_City":"Dallas","USER_State":"TX","USER_Zipcode":75232,"Rank":null,"NAME":"Dallas County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48113","SQMI":908.53999999999996,"POPULATION":2613539,"POP_SQMI":2876.5999999999999,"STATE_ABBR":"TX","COUNTY_FIPS":"113"},"geometry":{"x":-96.823295026999972,"y":32.670090991000052}},{"attributes":{"OBJECTID":48,"Join_Count":1,"TARGET_FID":48,"StAddr":"1002 Antelope St","City":"Corpus Christi","Subregion":"Nueces County","Region":"Texas","RegionAbbr":"TX","Postal":"78401","PostalExt":"2209","Country":"USA","CntryName":"United States","X":-97.401071599405995,"Y":27.797361518161999,"IN_Address":"1002 Antelope St","IN_City":"Corpus Christi","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"78401","USER_Joint":"Howards BBQ ","USER_Region":"Corpus Christi","USER_Whole_Address":"1002 Antelope St, Corpus Christi, TX 78401","USER_Address":"1002 Antelope St","USER_City":"Corpus Christi","USER_State":"TX","USER_Zipcode":78401,"Rank":null,"NAME":"Nueces County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48355","SQMI":849.25,"POPULATION":353178,"POP_SQMI":415.89999999999998,"STATE_ABBR":"TX","COUNTY_FIPS":"355"},"geometry":{"x":-97.401066988999958,"y":27.797547010000073}},{"attributes":{"OBJECTID":49,"Join_Count":1,"TARGET_FID":49,"StAddr":"421 W Main St","City":"Grand Prairie","Subregion":"Dallas County","Region":"Texas","RegionAbbr":"TX","Postal":"75050","PostalExt":"5624","Country":"USA","CntryName":"United States","X":-97.008630222178994,"Y":32.745151898239001,"IN_Address":"421 W Main St","IN_City":"Grand Prairie","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"75050","USER_Joint":"Zavala's Barbecue","USER_Region":"DFW","USER_Whole_Address":"421 W Main St, Grand Prairie, TX 75050","USER_Address":"421 W Main St","USER_City":"Grand Prairie","USER_State":"TX","USER_Zipcode":75050,"Rank":null,"NAME":"Dallas County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48113","SQMI":908.53999999999996,"POPULATION":2613539,"POP_SQMI":2876.5999999999999,"STATE_ABBR":"TX","COUNTY_FIPS":"113"},"geometry":{"x":-97.008599963999984,"y":32.744985015000054}},{"attributes":{"OBJECTID":50,"Join_Count":1,"TARGET_FID":50,"StAddr":"11500 Menchaca Rd","City":"Austin","Subregion":"Travis County","Region":"Texas","RegionAbbr":"TX","Postal":"78748","PostalExt":"2856","Country":"USA","CntryName":"United States","X":-97.833309247081004,"Y":30.153059363436,"IN_Address":"11500 Manchaca Rd","IN_City":"Austin","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"78745","USER_Joint":"Valentina’s Tex Mex BBQ","USER_Region":"Austin","USER_Whole_Address":"11500 Manchaca Rd, Austin, TX 78745","USER_Address":"11500 Manchaca Rd","USER_City":"Austin","USER_State":"TX","USER_Zipcode":78745,"Rank":null,"NAME":"Travis County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48453","SQMI":1025.03,"POPULATION":1290188,"POP_SQMI":1258.7,"STATE_ABBR":"TX","COUNTY_FIPS":"453"},"geometry":{"x":-97.833842000999937,"y":30.153043019000052}},{"attributes":{"OBJECTID":51,"Join_Count":1,"TARGET_FID":51,"StAddr":"2404 Southmost Rd","City":"Brownsville","Subregion":"Cameron County","Region":"Texas","RegionAbbr":"TX","Postal":"78521","PostalExt":"3765","Country":"USA","CntryName":"United States","X":-97.468786815865002,"Y":25.908437108577999,"IN_Address":"2404 Southmost Rd","IN_City":"Brownsville","IN_Subregion":null,"IN_Region":"TX","IN_Postal":"78521","USER_Joint":"Vera’s Backyard Bar-B-Que","USER_Region":"South","USER_Whole_Address":"2404 Southmost Rd, Brownsville, TX 78521","USER_Address":"2404 Southmost Rd","USER_City":"Brownsville","USER_State":"TX","USER_Zipcode":78521,"Rank":null,"NAME":"Cameron County","STATE_NAME":"Texas","STATE_FIPS":"48","FIPS":"48061","SQMI":941.75,"POPULATION":421017,"POP_SQMI":447.10000000000002,"STATE_ABBR":"TX","COUNTY_FIPS":"061"},"geometry":{"x":-97.468866024999954,"y":25.908232003000023}}]
+}

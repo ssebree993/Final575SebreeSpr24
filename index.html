@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<base target="_top">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Final Project 575</title>
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+	<style>
+		html, body {
+			height: 100%;
+			margin: 0;
+		}
+		.leaflet-container {
+			height: 400px;
+			width: 600px;
+			max-width: 100%;
+			max-height: 100%;
+		}
+	</style>
+
+	
+</head>
+<body>
+
+
+<div id="title" style="width: 50px; height: 20px;"></div> <!--// how to center on top of map -->
+<div id="map" style="width: 600px; height: 400px;"></div>
+
+<script>
+
+	var map = L.map('map').setView([29, -99], 6);
+
+    var Stadia_StamenTerrain = L.tileLayer('https://tiles.stadiamaps.com/tiles/stamen_terrain/{z}/{x}/{y}{r}.{ext}', {
+	attribution: '&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+	ext: 'png'
+    }).addTo(map);
+
+	//var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		//maxZoom: 19,
+		//attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+	//}).addTo(map);
+
+
+    var popup = L.popup()
+        .setLatLng([29, -99])
+        .setContent("Welcome Texas Twister Watchers!  " + "Historical Texas Tornado Activity, 2015-2020: " + "By County, Region." + " Click X to go to map.")
+        .openOn(map);
+
+    
+    
+
+</script>
+
+
+
+</body>
+</html>
